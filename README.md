@@ -7,31 +7,30 @@ Generate Google Analytics' boilerplate for your Quaint site.
 Once the plugin is loaded, you can use the `analytics ::` macro
 anywhere in order to load the tracking code.
 
-To load it, first install it:
+## Install
 
-```bash
-npm install -g quaint-google-analytics
-```
+    quaint --setup google-analytics
 
-Then add an entry for the plugin in your `quaint.json`:
+Follow the instructions.
+
+
+## Sample configuration
+
+This configuration entry must be added in the `plugins` section of
+`quaint.json`:
 
 ```json
-{
-    ...
-    "plugins": {
-        ...
-        "google-analytics": {
-            "trackingId": "UA-12345678-9",
-            "auto": true
-        }
-        ...
-    }
-    ...
+"google-analytics": {
+  "trackingId": "UA-12345678-9",
+  "auto": true
 }
 ```
 
-Options
--------
+If the `auto` option is true (it is false by default), then it is
+unnecessary to call `analytics ::`.
+
+
+## Options
 
 ### trackingId
 
