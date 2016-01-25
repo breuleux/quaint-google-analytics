@@ -7,12 +7,17 @@
     "type": "git",
     "url": "https://github.com/breuleux/quaint-google-analytics"
   },
-  "keywords": ["quaint", "google-analytics"],
+  "keywords": [
+    "quaint",
+    "google-analytics"
+  ],
   "author": "Olivier Breuleux",
   "license": "MIT",
   "main": "./lib/index.js",
   "dependencies": {
-    "earlgrey-runtime": ">=0.0.11"
+    "chalk": "^1.1.1",
+    "earlgrey-runtime": ">=0.0.11",
+    "inquirer-promise": "0.0.1"
   },
   "devDependencies": {
     "earlgrey": ">=0.0.13",
