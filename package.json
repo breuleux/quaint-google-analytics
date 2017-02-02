@@ -1,7 +1,7 @@
 {
   "name": "quaint-google-analytics",
   "description": "Call Google Analytics from Quaint",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "format": "cjs",
   "repository": {
     "type": "git",
